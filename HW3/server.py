@@ -18,11 +18,9 @@ while True:
 
         expr = data.decode()
 
-        # q가 오면 종료용 처리
         if expr == 'q':
             break
 
-        # 공백 제거
         expr = expr.replace(' ', '')
 
         try:
